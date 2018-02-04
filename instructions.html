@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <title>
+    Bubble Man
+  </title>
+</head>
+
+<style>
+
+  h1 {
+    font-family: verdana;
+  }
+
+  body {
+  background:#f2e6d9;
+  background-size: cover;
+  height: 65%;
+  }
+
+  p{
+    margin-left: 250px;
+    margin-top: 100px;
+  }
+
+  #button {
+      width: 1000em;
+      border: 0px;
+      background: #ffe;
+      opacity: 0;
+      border-radius: 5px;
+  }
+
+  a {
+      display: block;
+      width: 1000em;
+      height: 1000em;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      border-radius: 5px;
+  }
+
+  h1 {
+  text-align:center;
+  font-size: 5.5em;}
+
+  #one {
+    font-size: 30px;
+    display: none;
+  }
+
+  #two {
+    font-size: 30px;
+    display: none;
+  }
+
+  #three {
+    font-size: 30px;
+    display: none;
+  }
+
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+setTimeout(function(){
+  $("#one").show();
+}, 1000);
+setTimeout(function(){
+  $("#two").show();
+}, 3000);
+setTimeout(function(){
+  $("#three").show();
+}, 5000);
+setTimeout(function(){
+  $("#button").show();
+}, 5000);
+setTimeout(function(){
+  window.location = "seangottarun.html";
+}, 7000);
+
+
+
+
+
+
+</script>
+
+<body>
+  <h1>
+    How to play Bubbleman!
+  </h1>
+  <p id=one>
+    1. Arrow keys to move
+  </p>
+
+  <p id=two>
+    2. Q to fire in the directions you're facing
+  </p>
+
+  <p id=three>
+    <b>Objective: Shoot all flying balls without getting hit</b>
+  </p>
+
+  <div id="button">
+
+    <a href="seangottarun.html">START</a>
+
+  </div>
+
+
+
+</body>
